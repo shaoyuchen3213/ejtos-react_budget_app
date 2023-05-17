@@ -36,20 +36,13 @@ const Budget = () => {
                 });
             }
         
-    }
-
-
-    
-
-    
-
-
+    };
     
     return (
         <div className='alert alert-secondary'>
             <span>Budget: {currency}</span>
             <input type="number" value={inputValue} id= "budget" placeholder="Enter budget" step={10}
-            style={{ marginLeft: '2rem' , size: 10}}
+            style={{  size: 10}}
             onChange={handdleInputChange}
             onBlur={handleInputBlur}>
             </input>
