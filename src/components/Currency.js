@@ -7,7 +7,7 @@ const Currency = () => {
     const changeCurrency = (val) => {
         dispatch({
             type : 'CHG_CURRENCY',
-            playload : val,
+            payload : val,
         });
     }
 
